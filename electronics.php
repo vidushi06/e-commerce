@@ -21,20 +21,7 @@
                 <a class="nav-link" href="electronics.php">electronics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">furniture</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Appliances</a>
-              </li>
-
-      
-              <li class="nav-item">
-                <a class="nav-link" href="#">books</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">sports</a>
+                <a class="nav-link" href="furniture.php">furniture</a>
               </li>
 
               <!-- Dropdown -->
@@ -43,9 +30,9 @@
                   Clothing
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">men</a>
-                  <a class="dropdown-item" href="#">women</a>
-                  <a class="dropdown-item" href="#">children</a>
+                  <a class="dropdown-item" href="mens.php">men</a>
+                  <a class="dropdown-item" href="womens.php">women</a>
+                  <a class="dropdown-item" href="childrens.php">children</a>
                 </div>
               </li>
 
@@ -63,7 +50,9 @@
         <!---start of realmi mobiles--->
         <section>
              <div class="row">
-                <h1 style="margin-left: 10px">Realme <span class="underline"> Mobiles</span></h1>
+                <center><br>
+                    <h3 style="margin-left: 10px">Realme <span class="underline"> Mobiles</span></h3>
+                </center><br>
 
              <div id="blogSlider">
              <div class="MS-content">
@@ -308,7 +297,9 @@
         <br>
         <!--start of best deals-->
         <section>
-            <h1>Best Deals For You</h1>
+            <center><br>
+                <h3>Best Deals<span class="underline"> For You</span></h3>
+            </center><br>
             <div class="row">
                 <div class="col-md-3">
                     <div class="content"> <a href="#">
@@ -400,7 +391,9 @@
         <!--start of mobile phones-->
         <section>
             <div class="row">
-                <h1 class="b">Mobile phones</h1>
+                <center><br>
+                    <h3>Mobile<span class="underline"> Phones</span></h3>
+                </center><br>
             </div>
             <div class="row">
                 <div class="col-md-3">
@@ -506,8 +499,10 @@
     <!--start of mobile cases-->
     <section>
         <div>
-            <h1>Mobiles cases</h1><hr>
-        </div>
+             <center><br>
+                    <h3>Mobile<span class="underline"> Cases</span></h3>
+            </center>
+        </div><hr>
         <div class="row">
             <div class="col-md-3">
                 <a href=""><img class="pic-1 d-block mx-auto" src="https://rukminim1.flixcart.com/image/612/612/kgcl7680/cases-covers/back-cover/w/3/9/goldkart-c3-brwn-vntg-original-imafwm6gxqwmyq3h.jpeg?q=70" style="width: 70%;height: 210px;margin: auto;"></a>
@@ -601,7 +596,9 @@
     <!--start of pendrive-->
     <section>
         <div>
-            <h1>Laptops</h1><hr>
+             <center><br>
+                    <h3>Laptops</h3>
+            </center><hr>
         </div>
         <div class="row">
             <div class="col-md-3">

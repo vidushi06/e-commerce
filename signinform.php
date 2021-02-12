@@ -45,7 +45,7 @@
 								</div>
 
 								<div class="form-group">
-									<input id="conpass" type="password" name="password" class="form-control" placeholder="confirm password" required="required">
+									<input id="conpass" type="password" name="cpassword" class="form-control" placeholder="confirm password" required="required">
 									<span id="confirmpass" class="text-danger font-weight-bold"></span>
 								</div>
 
@@ -119,3 +119,25 @@
 
 </body>
 </html>
+
+<?php
+include "dbcon.php";
+if(isset($_POST['submit'])){
+	 $a=$_POST ['username'];
+	 $b=$_POST ['numbers'];
+	 $c=$_POST ['email'];
+	 $d=$_POST ['password'];
+	 $e=$_POST ['cpassword'];
+	 if($d==$e){
+	 $data ="INSERT INTO signinform(username,numbers,email,password)values('$a','$b','$c','$d')";
+ 	$result=mysqli_query($con,$data);
+ 	if($result){
+	header("Location:1post.php");
+
+}
+}
+else{
+		echo"<script> alert('password does not match') </script>";
+	}
+}
+?>

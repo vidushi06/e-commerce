@@ -90,29 +90,17 @@
                 <a class="nav-link" href="electronics.php">electronics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">furniture</a>
+                <a class="nav-link" href="furniture.php">furniture</a>
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Applian</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">books</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">sports</a>
-              </li>
-
               <!-- Dropdown -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                   Clothing
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">men</a>
-                  <a class="dropdown-item" href="#">women</a>
+                  <a class="dropdown-item" href="mens.php">men</a>
+                  <a class="dropdown-item" href="womens.php">women</a>
+                  <a class="dropdown-item" href="childrens.php">children</a>
                 </div>
               </li>
 
@@ -124,14 +112,17 @@
       </div>
   </div>
 </section><!--end of nav-->
+
 <br>
+<!--start of covid essentials-->
 <section>
   <div class="container">
-      <div class="row">
             <!---start of realmi mobiles--->
         <section>
              <div class="row">
-                <h1 style="margin-left: 10px">COVID 19 <span class="underline">Essentials</span></h1>
+              <center><br>
+                    <h3>COVID 19 <span class="underline">Essentials</span></h3>
+              </center><hr>
 
              <div id="blogSlider">
              <div class="MS-content">
@@ -372,10 +363,176 @@
                      </div>
                 </div>
         </section>
-        <!--end of relame mobiles-->
-      </div>
   </div>
 </section>
+<!--end of covid essentials-->
+<br>
+<!--start of items-->
+<section>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <div class="card-header">Beauty</div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <div class="card-header">Top Categories</div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <div class="card-header">Electronics</div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <div class="card-header">Furniture</div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+      </div><!--end of row-->
+      <div class="row"><!--start of row toy-->
+           <br>
+           <center><br>
+                    <h3>Toys</h3>
+              </center><hr>
+       </div><!--end of row toy-->
+       <div class="row">
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://m.media-amazon.com/images/I/41-7l-po+EL._AC_SY200_.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://m.media-amazon.com/images/I/81-80FPGX0L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://m.media-amazon.com/images/I/819t3qdQV7L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://m.media-amazon.com/images/I/91GEsg65O1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+       
+      </div><!--end of row-->
+      h1>Latest mobile phones</h1><br>
+      <div class="row">
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://m.media-amazon.com/images/I/71XXJC7V8tL._FMwebp__.jpg" class="card-img-top" style="height: 230px;margin: auto">
+                  <div class="card-body text-center">
+                    <p>New Apple iPhone 12 Pro Max</p>
+                    <p class="text-danger">Currently Unavailable</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://rukminim1.flixcart.com/image/416/416/kesv0y80/mobile/n/u/v/poco-m2-mzb9920in-original-imafvdrfzhw52yc6.jpeg?q=70" class="card-img-top" style="height: 230px;margin: auto">
+                  <div class="card-body text-center">
+                    <p>POCO M2</p>
+                    <p class="text-danger"><del>12,999</del> 9,999Rs.</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://rukminim1.flixcart.com/image/416/416/kf2v3ww0/mobile/e/h/7/redmi-9i-mzb0817in-mzb080uin-original-imafvmf4szdbwamg.jpeg?q=70" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center">
+                    <p>Redmi i9</p>
+                    <p class="text-danger"><del>9,999</del> 7,999Rs.</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+
+          <div class="col-md-3">
+              <div class="card card shadow">
+                  <img src="https://rukminim1.flixcart.com/image/312/312/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70" class="card-img-top" style="height: 230px;width: 94px;margin: auto">
+                  <div class="card-body text-center">
+                    <p>Apple iPhone XR</p>
+                    <p class="text-danger"><del>47,999</del> 41,499Rs.</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+       
+      </div><!--end of row-->
+
+  </div>
+</section>
+<!---end of items-->
 <br>
 <section><!--start of section-->
   <div class="container-fluid"><!--start of container fluid-->
@@ -384,10 +541,13 @@
         <img src="image/c19.jpg" style="height: 500px">
     </div>
 
-  <div class="container">
+  
     <br>
-      <h1>Popular Deals</h1>
-  </div>
+    <center><br>
+      <h3>Popular <span class="underline">Deals</span></h3>
+    </center><hr>
+      
+
   <div class="row"><!--start of row-->
     <div class="col-sm-12"><!--start of col-->
       <!--start of carousel-->
@@ -507,179 +667,14 @@
     </div>
     
   </div>
+    </div>
 </section><!--end of section-->
 <br>
-<section><!--start of items-->
-  <div class="container">
-      <br><br>
-      <div class="row">
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <div class="card-header">Beauty</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" class="card-img-top">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <div class="card-header">Top Categories</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg" class="card-img-top">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <div class="card-header">Electronics</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" class="card-img-top">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <div class="card-header">Furniture</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" class="card-img-top">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-      </div><!--end of row-->
-
-       <div class="row"><!--start of row toy-->
-           <br>
-           <h1 style="font-size: 60px">Toys</h1>
-       </div><!--end of row toy-->
-
-      <div class="row">
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://m.media-amazon.com/images/I/41-7l-po+EL._AC_SY200_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://m.media-amazon.com/images/I/81-80FPGX0L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://m.media-amazon.com/images/I/819t3qdQV7L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://m.media-amazon.com/images/I/91GEsg65O1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-       
-      </div><!--end of row-->
-      <br>
-
-      <h1>Latest mobile phones</h1><br>
-      <div class="row">
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://m.media-amazon.com/images/I/71XXJC7V8tL._FMwebp__.jpg" class="card-img-top" style="height: 230px;margin: auto">
-                  <div class="card-body text-center">
-                    <p>New Apple iPhone 12 Pro Max</p>
-                    <p class="text-danger">Currently Unavailable</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://rukminim1.flixcart.com/image/416/416/kesv0y80/mobile/n/u/v/poco-m2-mzb9920in-original-imafvdrfzhw52yc6.jpeg?q=70" class="card-img-top" style="height: 230px;margin: auto">
-                  <div class="card-body text-center">
-                    <p>POCO M2</p>
-                    <p class="text-danger"><del>12,999</del> 9,999Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://rukminim1.flixcart.com/image/416/416/kf2v3ww0/mobile/e/h/7/redmi-9i-mzb0817in-mzb080uin-original-imafvmf4szdbwamg.jpeg?q=70" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center">
-                    <p>Redmi i9</p>
-                    <p class="text-danger"><del>9,999</del> 7,999Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-3">
-              <div class="card card shadow">
-                  <img src="https://rukminim1.flixcart.com/image/312/312/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70" class="card-img-top" style="height: 230px;width: 94px;margin: auto">
-                  <div class="card-body text-center">
-                    <p>Apple iPhone XR</p>
-                    <p class="text-danger"><del>47,999</del> 41,499Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-       
-      </div><!--end of row-->
-
-  </div><!--end of container-->  
-</section><!--end of items-->
-
 <section><!--start of section with makeup,mens and womens items etc-->
     <div class="container-fluid">
-      <h1 style="font-size: 40px;font-weight: bolder;">Makeup</h1>
+      <center><br>
+        <h3>Makeup</h3>
+      </center><hr>
         <div class="row"><!--start of makeup-->
            <div class="column">
               <img src="image/make1.jpg" />
@@ -710,7 +705,9 @@
 
         <!--start of mens fashion-->
           <br><br>
-          <h1 style="font-size: 40px;font-weight: bolder;">Mens Fashion</h1>
+          <center><br>
+            <h3>Mens <span class="underline">Fashion</span></h3>
+          </center><hr>
           <br>
         <div class="row1">
            <div class="column1">
@@ -740,7 +737,9 @@
 
         <!--start of womens fashion-->
         <br><br>
-          <h1 style="font-size: 40px;font-weight: bolder;">Womens Fashion</h1>
+        <center><br>
+                    <h3>Womens <span class="underline">Fashion</span></h3>
+              </center><hr>
           <br>
         <div class="row1">
            <div class="column1">
@@ -840,7 +839,9 @@
         </div>
 
         <br>
-        <h1 style="text-align: center;">Happy Coustomers</h1>
+        <center><br>
+          <h3>Happy <span class="underline">Coustomers</span></h3>
+        </center><hr>
         <div class="row"><!--start of happy coustomer-->
           <br>
           <div class="col-md-3">

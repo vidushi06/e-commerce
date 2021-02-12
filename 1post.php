@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,11 +42,11 @@
 									<input id="pass" type="password" name="password" class="form-control" placeholder="password" required="required">	
 									<span id="passwordd" class="text-danger font-weight-bold"></span>					
 								</div>
-								<div class="form-group">
+								<!-- <div class="form-group">
 									<input type="text" name="" placeholder="enter OTP" required="required" class="form-control">
 									<small>you'll recieve an OTP number on your phone</small>
 								</div>
-
+ -->
 								<input type="submit" name="submit" class=" btn btn-warning btn-block">
 
 								<small>Don't have an account <a href="signinform.php" class="text-primary">SIGN IN</a></small>
@@ -85,3 +91,27 @@
 
 </body>
 </html>
+
+<?php
+
+include "dbcon.php";
+
+if(isset($_POST['submit'])){
+	$a=$_POST['username'];
+	$b=$_POST['password'];
+
+	$data = "SELECT * FROM signinform WHERE username = '$a' && password ='$b'";
+	$res = mysqli_query($con,$data);
+
+	$final = mysqli_num_rows($res);
+
+	if($final==1){
+        $_SESSION['a'] = $a;
+		header('Location:index.php');
+	}
+	else{
+		echo "<script> alert('please check username or password') </script>";
+	}
+}
+
+?>
