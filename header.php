@@ -22,9 +22,11 @@ include "session.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/post.css">
-
+	
 </head>
 <body>
 
@@ -37,7 +39,7 @@ include "session.php";
 		      <img class="web-logo" src="image/logo.jpg" width="65px" style="border-radius: 46px;" >
 		      
 		 </a>
-		 <h2>welcome<?php echo $_SESSION['a']?></h2>
+		 <h4>welcome <?php echo $_SESSION['a']?></h4>
 
 		 <!--button toggle-->
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
@@ -53,6 +55,9 @@ include "session.php";
 				</li>
 				<li class="nav-item">
 					<a href="1post.php" class="nav-link text-light">LOGIN</a>
+				</li>
+				<li class="nav-item">
+					<a href="logout.php" class="nav-link text-light">LOGOUT</a>
 				</li>
 				<li class="nav-item">
 					<a href="" class="nav-link" class="btn" data-toggle="modal" data-target="#cc" style="color:#fff"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>

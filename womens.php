@@ -63,7 +63,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						 <a href="">
-                      	<img src="https://media.istockphoto.com/photos/young-smiling-handsome-man-in-casual-clothes-posing-isolated-on-blue-picture-id1249420269?b=1&k=6&m=1249420269&s=170667a&w=0&h=je8tevQNiDV8K32v-rFicWSXRfc1qj_599KZC41-Pj8=" style="height: 198px;width: 100%">
+                      	<img src="https://tse4.mm.bing.net/th?id=OIP.vJZvuFduZMqgSF0MwDW9fQHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Blue T-shirt</h6>
@@ -82,7 +82,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?b=1&k=6&m=1200677760&s=170667a&w=0&h=EgnRKPMD7AzGPkiP1Ud3F456R43rqmK1LomaMVHAejI=" style="height: 198px;width: 100%">
+                      	<img src="https://tse2.mm.bing.net/th?id=OIP.cZXySbJODzFEWUhnKPtq7wHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens Grey cotton tshirt</h6>
@@ -100,7 +100,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://media.istockphoto.com/photos/handsome-latin-man-against-turquoise-background-picture-id1182055260?b=1&k=6&m=1182055260&s=170667a&w=0&h=iyZgu1LkjfK3z9xdqfPuhp8mA92QwNgWSpBIDTN8AGA=" style="height: 198px;width: 100%">
+                      	<img src="https://tse3.mm.bing.net/th?id=OIP.K-OaNHDbidZ_0q_v9M20lgHaLH&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens dark Grey cotton tshirt</h6>
@@ -118,7 +118,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://media.istockphoto.com/photos/portrait-of-happy-handsome-brunette-man-looking-at-camera-with-joyful-picture-id1200180545?b=1&k=6&m=1200180545&s=170667a&w=0&h=xYwYA_Qx2gGVps5Fse1wJ8I8l2lhZx7PV77jlmK3RYc=" style="height: 198px;width: 100%">
+                      	<img src="https://tse3.mm.bing.net/th?id=OIP.HdymQC4qGLcSX8il7M4XiQHaIy&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		Mens white tshirt
@@ -136,7 +136,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://media.istockphoto.com/photos/happy-laughing-guy-posing-with-arms-folded-picture-id1192320181?b=1&k=6&m=1192320181&s=170667a&w=0&h=1Wrvg6wLrNKvm4ixIWCl3e08pSaxHFtABlSSVYNc-s8=" style="height: 198px;width: 100%">
+                      	<img src="https://tse2.mm.bing.net/th?id=OIP.5-K-VbxGk7x-WP_8KodPjwHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens blue shirt</h6>
@@ -154,7 +154,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://images.pexels.com/photos/1484807/pexels-photo-1484807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="height: 198px;width: 100%">
+                      	<img src="https://tse4.mm.bing.net/th?id=OIP.HdKSBTxjPbYymxgRt97PzgHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Light pink t-shirt</h6>
@@ -174,7 +174,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						 <a href="">
-                      	<img src="https://images.pexels.com/photos/4947581/pexels-photo-4947581.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="height: 198px;width: 100%">
+                      	<img src="https://tse3.mm.bing.net/th?id=OIP.QtWgmrTUIVM8xwxEeyPlPAHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>mens printed shirt</h6>
@@ -191,7 +191,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                     	 <img src="https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="height: 198px;width: 100%">
+                     	 <img src="https://tse4.mm.bing.net/th?id=OIP.tzgGUHfkmU4yx740ZCJXBgHaLH&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
 
@@ -209,7 +209,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://tse1.mm.bing.net/th?id=OIP.--Bhv05grQ8eBnssITOZqgHaIt&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
+                      	<img src="https://tse3.mm.bing.net/th?id=OIP.EMdBJY8sKfgOYdB-Y0pJIQAAAA&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                    		 </a>
                     	<div class="text-center">
 
@@ -227,7 +227,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://tse1.mm.bing.net/th?id=OIP.WddR-FWF1Tp3rrmU3vqnBgHaKT&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
+                      	<img src="https://tse1.mm.bing.net/th?id=OIP.j54GJyrzaHzgLrdO-84yggHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens Sweatshirt</h6>
@@ -244,7 +244,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://tse2.mm.bing.net/th?id=OIP.DtpkB6v9EkSHSN6OggerrwHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
+                      	<img src="https://tse2.mm.bing.net/th?id=OIP.sQ7bx1t-XBueV85xouD62wHaIf&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens halfsleeves shirt</h6>
@@ -261,7 +261,7 @@
 				<div class="col-md-2">
 					<div class="card">
 						<a href="">
-                      	<img src="https://tse4.mm.bing.net/th?id=OIP.H69NrT7XKzsuPrK07e6SIAHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
+                      	<img src="https://tse1.mm.bing.net/th?id=OIP.UAnkmhmFrAC6A7RRAoPHfgHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
                     		<h6>Mens Red shirt</h6>

@@ -1,3 +1,9 @@
+<?php
+
+include "session.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -422,7 +428,7 @@
            <br>
            <center><br>
                     <h3>Toys</h3>
-              </center><hr>
+              </center>
        </div><!--end of row toy-->
        <div class="row">
           <div class="col-md-3">
@@ -548,125 +554,7 @@
     </center><hr>
       
 
-  <div class="row"><!--start of row-->
-    <div class="col-sm-12"><!--start of col-->
-      <!--start of carousel-->
-      <div id="inam" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner text-center">
-          <div class="carousel-item active">
-             <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card card shadow" style="width: 300px;margin: auto;">
-                    <img src="image/1.jpg" class="card-img-top img1">
-                    <div class="card-body">
-                      <h4 class="card-title">Olive green one piece</h4>
-                      <p class="card-text text-danger"><del>1500</del> 999 Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                      
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card card shadow" style="width: 300px;">
-                    <img src="image/2.jpg" class="card-img-top img1">
-                    <div class="card-body">
-                      <h4 class="card-title">Royal Blue Suit</h4>
-                      <p class="card-text text-danger"><del>8600</del> 6666 Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card card shadow" style="width: 300px;">
-                    <img src="image/3.jpg" class="card-img-top img1">
-                    <div class="card-body">
-                      <h4 class="card-title">Brown Suit</h4>
-                      <p class="card-text text-danger"><del>8600</del> 6666Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-
-             </div>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-             <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card" style="width: 300px;margin: auto;">
-                    <img src="image/4.jpg" class="card-img-top img1">
-                    <div class="card-body">
-                      <h4 class="card-title">sneakers</h4>
-                      <p class="card-text text-danger"><del>7890</del> 5999Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
-                      
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card" style="width: 300px;">
-                    <img src="image/5.jpg" class="card-img-top img1" >
-                    <div class="card-body">
-                      <h4 class="card-title">Daily wear tops</h4>
-                      <p class="card-text text-danger"><del>560</del> 250Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>                
-                      
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card card shadow card deck" style="width: 300px;">
-                    <img src="image/6.jpg" class="card-img-top img1"> 
-                    <div class="card-body">
-                      <h4 class="card-title">Set of 3 Danim Jeans</h4>
-                      <p class="card-text text-danger"><del>5000</del> 2199Rs.</p>
-                      <button type="button" class="btn btn-warning">Read More</button>
-                      <button class="btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button> 
-                    </div>
-                    
-                  </div>
-                  
-                </div>
-                
-              </div>
-              
-             </div>
-
-            </div>
-
-          </div>
-          
-        
-        <a href="#inam" class="carousel-control-prev" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#inam" class="carousel-control-next" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-        
-      </div><!--end of carousel-->
-      
-    </div>
-    
-  </div>
+  
     </div>
 </section><!--end of section-->
 <br>

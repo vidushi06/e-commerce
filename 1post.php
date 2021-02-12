@@ -31,7 +31,7 @@ session_start();
 
 						<div class="card-body">
 							<h1 class="text-warning text-center">LOGIN FORM</h1>
-							<form onsubmit="return validation()" method="post" action="1datainsert.php">
+							<form onsubmit="return validation()" method="post" action="">
 
 								<div class="form-group">
 									<input id="user" type="text" name="username" class="form-control" placeholder="username" required="required" autocomplete="off">			
