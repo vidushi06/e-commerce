@@ -45,12 +45,10 @@ session_start();
 								<!-- <div class="form-group">
 									<input type="text" name="" placeholder="enter OTP" required="required" class="form-control">
 									<small>you'll recieve an OTP number on your phone</small>
-								</div>
- -->
+								</div> -->
 								<input type="submit" name="submit" class=" btn btn-warning btn-block">
 
 								<small>Don't have an account <a href="signinform.php" class="text-primary">SIGN IN</a></small>
-								<small><a href="index.php"> Home</a></small>
 
 							</form>	
 						</div>

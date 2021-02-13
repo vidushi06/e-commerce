@@ -9,7 +9,7 @@
 
 	<section><!--start of nav-->
 
-  		<div class="container-fluid" style="background-color: #f0bb1b;margin-top: 67px">
+  		<div class="container-fluid" style="background-color: #f0bb1b;margin-top: 89px">
      		<div class="container">
           		<nav class="navbar navbar-expand-sm  navbar-dark">
 
@@ -27,7 +27,6 @@
                 		<div class="dropdown-menu">
                   		<a class="dropdown-item" href="mens.php">men</a>
                   		<a class="dropdown-item" href="womens.php">women</a>
-                      <a class="dropdown-item" href="childrens.php">children</a>
                       
                 		</div>
               			</li>

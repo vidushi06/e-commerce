@@ -13,6 +13,98 @@ include "session.php";
 <link href="css/slider_item.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style type="text/css">
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  }
+
+  /*  four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .column img:hover {
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column img {
+      filter: grayscale(1) brightness(1);
+    }
+    .column img:hover {
+    filter: grayscale(0);
+  }
+  }
+
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /*  four equal columns that sits next to each other */
+  .column1 {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: brightness(1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column1 img {
+      filter: brightness(1);
+    }
+
+  }
+
+
+  }
+
+</style>
 </head>
 <body  onload="myFunction()">
 
@@ -33,7 +125,7 @@ include "session.php";
            <img src="image/items.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
            
            <div class="carousel-caption text-warning">
-                <h1 style="font-size: 70px">Get all popular brands at one place :)</h1>
+                <h1 style="font-size: 70px;color: white">Get all popular brands at one place :)</h1>
            </div>
 
       </div>
@@ -436,7 +528,6 @@ include "session.php";
                   <img src="https://m.media-amazon.com/images/I/41-7l-po+EL._AC_SY200_.jpg" class="card-img-top" style="height: 230px">
                   <div class="card-body text-center" style="width: 246px;margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -447,7 +538,6 @@ include "session.php";
                   <img src="https://m.media-amazon.com/images/I/81-80FPGX0L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
                   <div class="card-body text-center" style="width: 246px;margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -459,7 +549,6 @@ include "session.php";
                   <img src="https://m.media-amazon.com/images/I/819t3qdQV7L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
                   <div class="card-body text-center" style="width: 246px;margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -471,7 +560,6 @@ include "session.php";
                   <img src="https://m.media-amazon.com/images/I/91GEsg65O1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
                   <div class="card-body text-center" style="width: 246px;margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->

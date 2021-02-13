@@ -1,7 +1,7 @@
 <?php
 session_start();
 session_unset();#logout
-header("Location:signin.php");
+header("Location:1post.php");
 
 
 ?>

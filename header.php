@@ -22,16 +22,14 @@ include "session.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/post.css">
 	
 </head>
 <body>
 
 		<!--start of nav bar-->
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top a"style="height: 66px;">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top a"style="height: 88px;">
 
 		 <!--logo on nav bar-->
 		<a href="" class="navbar-brand">
@@ -39,7 +37,7 @@ include "session.php";
 		      <img class="web-logo" src="image/logo.jpg" width="65px" style="border-radius: 46px;" >
 		      
 		 </a>
-		 <h4>welcome <?php echo $_SESSION['a']?></h4>
+		 <h6>welcome <?php echo $_SESSION['a']?></h6>
 
 		 <!--button toggle-->
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
@@ -48,7 +46,7 @@ include "session.php";
    
    		 </button>
 
-		<div class="collapse navbar-collapse" id="a">
+		<div class="collapse navbar-collapse" id="a" style="background-color: #f0bb1b"> 
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a href="index.php" class="nav-link text-light">HOME</a>
