@@ -12,98 +12,10 @@ include "session.php";
 <link href="css/multislider.css" rel="stylesheet">
 <link href="css/slider_item.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <style type="text/css">
-  .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  }
-
-  /*  four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 33.3%;
-    padding: 0 4px;
-  }
-
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    filter: grayscale(1) brightness(0.5);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s linear;
-  }
-  .column img:hover {
-    filter: grayscale(0);
-  }
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-    .column img {
-      filter: grayscale(1) brightness(1);
-    }
-    .column img:hover {
-    filter: grayscale(0);
-  }
-  }
-
-  .row1 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-  /*  four equal columns that sits next to each other */
-  .column1 {
-    flex: 25%;
-    max-width: 33.3%;
-    padding: 0 4px;
-  }
-
-  .column1 img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    filter: brightness(1);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s linear;
-  }
-  @media screen and (max-width: 800px) {
-    .column1 {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column1 {
-      flex: 100%;
-      max-width: 100%;
-    }
-    .column1 img {
-      filter: brightness(1);
-    }
-
-  }
-
-
-  }
-
+  
 </style>
 </head>
 <body  onload="myFunction()">
@@ -116,7 +28,7 @@ include "session.php";
 
 <section><!--start of slider-->
 
- <div class="carousel slide" data-ride="carousel" id="myslide">
+ <div class="carousel slide" data-ride="carousel" id="myslide" style="margin-top: -20px">
 
 
   <div class="carousel-inner">
@@ -124,8 +36,8 @@ include "session.php";
       <div class="carousel-item active" data-interval="3000">
            <img src="image/items.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
            
-           <div class="carousel-caption text-warning">
-                <h1 style="font-size: 70px;color: white">Get all popular brands at one place :)</h1>
+           <div class="carousel-caption">
+                <h1 style="font-size: 50px;color: white;text-shadow: 2px 2px black;">Get all popular brands at one place :)</h1>
            </div>
 
       </div>
@@ -133,8 +45,8 @@ include "session.php";
       <div class="carousel-item" data-interval="3000">
            <img src="image/sales.jpg" alt="First slide" class="img-fluid" width="100%"style="height: 650px">
            <div class="carousel-caption">
-           		 <h1 style="font-size: 70px" class="text-danger" >best of 2021</h1>
-              <button style="border-radius: 20px" class="btn btn-danger">Shop Now</button>
+           		 <h1 style="font-size: 50px;text-shadow: 2px 2px black;" class="text-danger" >best of 2021</h1>
+              <button style="border-radius: 20px;text-shadow: 2px 2px black;" class="btn btn-danger">Shop Now</button>
            </div>
 
       </div>
@@ -142,7 +54,7 @@ include "session.php";
       <div class="carousel-item" data-interval="3000">
            <img src="image/cosmetics.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
            <div class="carousel-caption">
-           		<h1 class="text-warning" style="font-size: 60px">20%<span class="text-light">Off on Best cosmetics Brands</span></h1>
+           		<h1 class="text-warning" style="font-size: 50px;text-shadow: 2px 2px black;">20%<span class="text-light">Off on Best cosmetics Brands</span></h1>
            </div>
 
       </div>
@@ -198,7 +110,6 @@ include "session.php";
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="mens.php">men</a>
                   <a class="dropdown-item" href="womens.php">women</a>
-                  <a class="dropdown-item" href="childrens.php">children</a>
                 </div>
               </li>
 
@@ -214,13 +125,12 @@ include "session.php";
 <br>
 <!--start of covid essentials-->
 <section>
-  <div class="container">
-            <!---start of realmi mobiles--->
+  <div class="container-fluid">
         <section>
              <div class="row">
               <center><br>
                     <h3>COVID 19 <span class="underline">Essentials</span></h3>
-              </center><hr>
+              </center>
 
              <div id="blogSlider">
              <div class="MS-content">
@@ -469,7 +379,7 @@ include "session.php";
 <section>
   <div class="container-fluid">
       <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <div class="card-header">Beauty</div>
                   <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" class="card-img-top">
@@ -480,7 +390,7 @@ include "session.php";
               </div><!--end of card-->
           </div><!--end of col-->
 
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <div class="card-header">Top Categories</div>
                   <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg" class="card-img-top">
@@ -491,8 +401,19 @@ include "session.php";
               </div><!--end of card-->
           </div><!--end of col-->
 
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <div class="card-header">Food</div>
+                  <img src="https://img.freepik.com/free-photo/top-view-pantry-food-ingredients_23-2148796316.jpg?size=626&ext=jpg&ga=GA1.2.516988847.1612722310" class="card-img-top" style="height: 170px">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
 
-          <div class="col-md-3">
+
+          <div class="col-md-2">
               <div class="card card shadow">
                   <div class="card-header">Electronics</div>
                   <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" class="card-img-top">
@@ -503,8 +424,19 @@ include "session.php";
               </div><!--end of card-->
           </div><!--end of col-->
 
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <div class="card-header">Clothes</div>
+                  <img src="https://tpc.googlesyndication.com/daca_images/simgad/2603831496085703479" class="card-img-top" style="height: 170px">
+                  <div class="card-body">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
 
-          <div class="col-md-3">
+
+          <div class="col-md-2">
               <div class="card card shadow">
                   <div class="card-header">Furniture</div>
                   <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" class="card-img-top">
@@ -516,107 +448,147 @@ include "session.php";
           </div><!--end of col-->
 
       </div><!--end of row-->
+
       <div class="row"><!--start of row toy-->
            <br>
            <center><br>
-                    <h3>Toys</h3>
+                    <h3 style="font-weight: bold;">Toys</h3>
               </center>
        </div><!--end of row toy-->
+       <br>
        <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://m.media-amazon.com/images/I/41-7l-po+EL._AC_SY200_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                  <div class="card-body text-center" style="margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://m.media-amazon.com/images/I/81-80FPGX0L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                  <div class="card-body text-center" style="margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://m.media-amazon.com/images/I/819t3qdQV7L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                  <div class="card-body text-center" style="margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://m.media-amazon.com/images/I/91GEsg65O1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" style="height: 230px">
-                  <div class="card-body text-center" style="width: 246px;margin: auto;">
+                  <div class="card-body text-center" style="margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <img src="https://cdn.pixabay.com/photo/2015/11/20/17/51/stuffed-animal-1053580__340.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="margin: auto;">
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <img src="https://cdn.pixabay.com/photo/2016/08/23/13/12/knitting-1614283__340.jpg" class="card-img-top" style="height: 230px">
+                  <div class="card-body text-center" style="margin: auto;">
                     <a href="" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
        
-      </div><!--end of row-->
-      h1>Latest mobile phones</h1><br>
+      </div><!--end of row--><br>
+      <h3 style="font-weight: bold;text-align: center;">Latest mobile phones</h3><br>
       <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://m.media-amazon.com/images/I/71XXJC7V8tL._FMwebp__.jpg" class="card-img-top" style="height: 230px;margin: auto">
                   <div class="card-body text-center">
-                    <p>New Apple iPhone 12 Pro Max</p>
+                    <p>New Apple iPhone 12</p>
                     <p class="text-danger">Currently Unavailable</p>
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://rukminim1.flixcart.com/image/416/416/kesv0y80/mobile/n/u/v/poco-m2-mzb9920in-original-imafvdrfzhw52yc6.jpeg?q=70" class="card-img-top" style="height: 230px;margin: auto">
                   <div class="card-body text-center">
                     <p>POCO M2</p>
                     <p class="text-danger"><del>12,999</del> 9,999Rs.</p>
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <img src="https://n4.sdlcdn.com/imgs/i/6/1/JIO-MOBILE-Black-4G-Security-SDL187430964-3-6f07f.jpg" class="card-img-top" style="height: 230px;margin: auto">
+                  <div class="card-body text-center">
+                    <p>Jio</p>
+                    <p class="text-danger"><del>999</del> 699Rs.</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
 
-          <div class="col-md-3">
+          <div class="col-md-2">
+              <div class="card card shadow">
+                  <img src="https://tse1.mm.bing.net/th?id=OIP.SGguKXNqH5YQnLZ-OIJIYAHaJ4&pid=Api&P=0&w=300&h=300" class="card-img-top" style="height: 230px;margin: auto">
+                  <div class="card-body text-center">
+                    <p>honor</p>
+                    <p class="text-danger"><del>12,999</del>  10,999Rs.</p>
+                    <a href="" class="btn btn-warning">Shop Now</a>
+            
+                  </div><!--end of card body-->
+              </div><!--end of card-->
+          </div><!--end of col-->
+
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://rukminim1.flixcart.com/image/416/416/kf2v3ww0/mobile/e/h/7/redmi-9i-mzb0817in-mzb080uin-original-imafvmf4szdbwamg.jpeg?q=70" class="card-img-top" style="height: 230px">
                   <div class="card-body text-center">
                     <p>Redmi i9</p>
                     <p class="text-danger"><del>9,999</del> 7,999Rs.</p>
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
 
-          <div class="col-md-3">
+          <div class="col-md-2">
               <div class="card card shadow">
                   <img src="https://rukminim1.flixcart.com/image/312/312/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70" class="card-img-top" style="height: 230px;width: 94px;margin: auto">
                   <div class="card-body text-center">
                     <p>Apple iPhone XR</p>
                     <p class="text-danger"><del>47,999</del> 41,499Rs.</p>
                     <a href="" class="btn btn-warning">Shop Now</a>
-                    <a href="" class="btn btn-warning">View More</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -919,3 +891,5 @@ $('#blogSlider').multislider({
 </script>
 </body>
 </html>
+
+

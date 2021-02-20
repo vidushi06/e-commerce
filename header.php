@@ -37,7 +37,7 @@ include "session.php";
 		      <img class="web-logo" src="image/logo.jpg" width="65px" style="border-radius: 46px;" >
 		      
 		 </a>
-		 <h6>welcome <?php echo $_SESSION['a']?></h6>
+		 <h6><?php echo $_SESSION['a']?></h6>
 
 		 <!--button toggle-->
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
@@ -68,7 +68,7 @@ include "session.php";
 				</li>
 		
 				<li class="nav-item">
-					<button style="background:none;border-style: solid; border-width: thin; border-color:#fff;color:white;padding: 7px; ">CONTACT</button>
+					<a href="contact.php" class="btn" style="background:none;text-decoration: none; border-style: solid; border-width: thin; border-color:#fff;color:white;padding: 7px; ">CONTACT</a>
 				</li>
 
 			 </ul> 

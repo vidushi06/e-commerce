@@ -5,11 +5,17 @@ if(isset($_POST['submit'])){
 	 $b=$_POST ['numbers'];
 	 $c=$_POST ['email'];
 	 $d=$_POST ['password'];
+	 $e=$_POST ['cpassword'];
+	 if($d==$e){
 	 $data ="INSERT INTO signinform(username,numbers,email,password)values('$a','$b','$c','$d')";
  	$result=mysqli_query($con,$data);
  	if($result){
 	header("Location:1post.php");
-	echo "signin succeful ";
+
 }
+}
+else{
+		echo"<script> alert('password does not match') </script>";
+	}
 }
 ?>

@@ -426,6 +426,7 @@
                             <div class="card-text">
                                 <a href="#" class="stretched-link text-warning" style="text-decoration: none;font-weight: bolder;">Samsung Galaxy Z-flip(mirror black,256 gb)</a><br>
                                 <b>84,999</b>
+                                <br><br><br><br>
                             </div>
                         </div>
                     </div>
@@ -437,6 +438,7 @@
                             <div class="card-text">
                                 <a href="#" class="stretched-link text-warning" style="text-decoration: none;font-weight: bolder;">Samsung Galaxy S21 ultra (phantom black,512 gb)</a><br>
                                 <b>69,999<small><del><br>  85,999 </del> <span class="text-success">  16% off</span></small></b>
+                                <br><br><br>
                             </div>
                         </div>
                     </div>
@@ -462,7 +464,7 @@
                         <div class="card-body">
                             <div class="card-text">
                                 <a href="#" class="stretched-link text-warning" style="text-decoration: none;font-weight: bolder;">Oppo A15 (rainbow silver,32 gb)</a><br>
-                                <b>9,690</b>
+                                <b>9,690</b><br><br>
                             </div>
                         </div>
                     </div>
@@ -530,7 +532,7 @@
                     Theme: No Theme
             </div>
         </div><!--end of row-->
-
+        <br>
         <div class="row">
             <div class="col-md-3">
                 <a href=""><img class="pic-1 d-block mx-auto" src="https://rukminim1.flixcart.com/image/612/612/kg15ocw0/cases-covers/flip-cover/g/f/5/flipkart-smartbuy-fsb-fc-opa9-20-blu-brw-01-original-imafwcvykwnrymny.jpeg?q=70" style="width: 70%;height: 210px;margin: auto;"></a>

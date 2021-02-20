@@ -43,6 +43,12 @@
         top: 27%;
         left: 82px;
       }
+      @media(max-width: 800px) {
+        .carousel-caption h1{
+          font-size: 10px;
+        }
+      }
+
       a{
         text-decoration: none;
       }
