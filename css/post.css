@@ -1,3 +1,6 @@
+
+
+
 /*navbar css*/
 
 #loading{
@@ -52,6 +55,14 @@
       a{
         text-decoration: none;
       }
+
+
+
+
+
+
+/*   slider */
+
 
 
 /*  page css */
@@ -110,14 +121,19 @@ body{
 }
 
 
-  .furniture{
-    background-image: url('https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+.response-card{
+  width:70%;display: block;margin: auto; border-radius: 50%;
+}
+
+
+  /*.furniture{
+    background-image: url('https://media.istockphoto.com/photos/home-appliances-set-of-household-kitchen-technics-isolated-on-white-picture-id940975636?b=1&k=6&m=940975636&s=170667a&w=0&h=FQt_ctXddAVgFcjHLyfXgfvFmcODjAbr94V3pANh2cY=');
      background-size: 100% 100%;
      height: 300px;
   }
 
   .appliances{
-    background-image: url('https://media.istockphoto.com/photos/home-appliances-set-of-household-kitchen-technics-isolated-on-white-picture-id940975636?b=1&k=6&m=940975636&s=170667a&w=0&h=FQt_ctXddAVgFcjHLyfXgfvFmcODjAbr94V3pANh2cY=');
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.k4ybsvnllogYJwyAMsGbqQHaF7&pid=Api&P=0&w=192&h=155');
      background-size: 100% 100%;
      height: 300px;
   }
@@ -126,7 +142,7 @@ body{
     background-image: url('https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
      background-size: 100% 100%;
      height: 300px;
-  }
+  }*/
   
 
 /*  images with hover    */

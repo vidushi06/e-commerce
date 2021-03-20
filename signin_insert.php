@@ -10,12 +10,13 @@ if(isset($_POST['submit'])){
 	 $data ="INSERT INTO signinform(username,numbers,email,password)values('$a','$b','$c','$d')";
  	$result=mysqli_query($con,$data);
  	if($result){
-	header("Location:1post.php");
+	header("Location:login.php");
 
 }
 }
 else{
 		echo"<script> alert('password does not match') </script>";
+		header("Location:signinform.php");
 	}
 }
 ?>

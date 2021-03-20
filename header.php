@@ -1,6 +1,6 @@
 <?php
-
 include "session.php";
+session_start();
 
 ?>
 
@@ -34,10 +34,10 @@ include "session.php";
 		 <!--logo on nav bar-->
 		<a href="" class="navbar-brand">
 
-		      <img class="web-logo" src="image/logo.jpg" width="65px" style="border-radius: 46px;" >
+		      <img class="web-logo" src="image/logo.jpg" width="65px">
 		      
 		 </a>
-		 <h6><?php echo $_SESSION['a']?></h6>
+		 <h6  data-toggle="modal" data-target="#s"></h6>
 
 		 <!--button toggle-->
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
@@ -51,11 +51,22 @@ include "session.php";
 				<li class="nav-item">
 					<a href="index.php" class="nav-link text-light">HOME</a>
 				</li>
+
+				<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  PRODUCTS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="mens.php">men's wear</a>
+                  <a class="dropdown-item" href="electronics.php">electronics</a>
+                  <a class="dropdown-item" href="furniture.php">furniture</a>
+                  <a class="dropdown-item" href="womens.php">women's wear</a>
+
+
+                </div>
+              </li>
 				<li class="nav-item">
-					<a href="1post.php" class="nav-link text-light">LOGIN</a>
-				</li>
-				<li class="nav-item">
-					<a href="logout.php" class="nav-link text-light">LOGOUT</a>
+					<a href="login.php" class="nav-link text-light">LOGIN</a>
 				</li>
 				<li class="nav-item">
 					<a href="" class="nav-link" class="btn" data-toggle="modal" data-target="#cc" style="color:#fff"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
@@ -76,3 +87,26 @@ include "session.php";
 	</nav><!--end of nav bar-->
 </body>
 </html>
+
+
+<div class="modal fade" id="s">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">User Info</h5>
+        <button type="button" class="" data-dismiss="modal">
+          <span >&times;</span>
+        </button> 
+      </div>
+      <div class="modal-body">
+        	Welcome <h5><?php echo $_SESSION['a']?></h5>
+        	<a href="logout.php" class="btn btn-warning">Logout</a>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+     </div>
+    </div>
+  </div>

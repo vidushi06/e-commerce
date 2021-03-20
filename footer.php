@@ -35,7 +35,7 @@
 				<div class="text-center">
 
 					<p class="copyright-text" style=" font-size:13px;color: white;margin-top: 0px;
-           			margin-bottom: 0px,background-color: #fff;padding-top: 30px;position: relative;">PRIVACY POLICY | TERMS AND CONDITIONS |COPYRIGHT © CYBER SECQURE
+           			margin-bottom: 0px,background-color: #fff;padding-top: 30px;position: relative;">PRIVACY POLICY | TERMS AND CONDITIONS |COPYRIGHT @ CYBER SECURE
             			</p>
 
            		</div>

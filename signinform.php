@@ -9,19 +9,22 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="post.css">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<body>
-	<div class="container-fluid">
-		<div class="container form">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<div class="card shadow"><br>
-						<img src="image/logo.jpg" class="card-img-top rounded-circle img mx-auto d-block">
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<div class=""><br>
 
 						<div class="card-body">
-							<h1 class="text-warning text-center">SIGNIN FORM</h1>
+							<h1 class="text-warning text-center">Create a new Account</h1>
 							<form onsubmit="return validation()" method="post" action="signin_insert.php">
 
 								<div class="form-group">
@@ -40,8 +43,16 @@
 								</div>
 
 								<div class="form-group">
-									<input id="pass" type="password" name="password" class="form-control" placeholder="create a password" required="required">	
-									<span id="passwordd" class="text-danger font-weight-bold"></span>					
+									<input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" class="form-control" required>	
+									<span id="passwordd" class="text-danger font-weight-bold" ></span>				
+
+								</div>
+								<div id="message">
+  									<h3>Password must contain the following:</h3>
+  									<p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  									<p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  									<p id="number" class="invalid">A <b>number</b></p>
+  									<p id="length" class="invalid">Minimum <b>8 characters</b></p>
 								</div>
 
 								<div class="form-group">
@@ -52,75 +63,97 @@
 								<input type="submit" name="submit" class=" btn btn-warning btn-block">
 								<br>
 								<small>go to <a href="index.php">HOME</a></small>
+								<br>
 							</form>	
 						</div>
 					</div><!--end of card shadow-->
-				</div><!--end of col-md-4-->
-				<div class="col-md-6">
-					
-				</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
-
-
-				<script>
-					function validation(){
-			var user= document.getElementById("user").value;
-
-			var pass = document.getElementById("pass").value;
-
-			var conpass= document.getElementById("conpass").value;
-
-			var mob = document.getElementById("mob").value;
-
-			var mail= document.getElementById('mail').value;
-
-			if((user.length <= 2) || (user.length > 20)) {
-				document.getElementById('usernamee').innerHTML =" ** Username lenght must be between 2 to 20 characters";
-				return false;	
-			}
-
-			if(!isNaN(user)){
-				document.getElementById('usernamee').innerHTML =" ** only characters are allowed";
-				return false;
-			}
-
-			if((pass.length <= 5) || (pass.length > 20)) {
-				document.getElementById('passwordd').innerHTML =" ** Passwords lenght must be between  5 to 20";
-				return false;	
-			}
-			
-			if(pass!=conpass){
-				document.getElementById('confirmpass').innerHTML =" ** Password does not match the confirm password";
-				return false;
-			}
-
-			if(isNaN(mob)){
-				document.getElementById('mobilenum').innerHTML =" ** user must write digits only not characters";
-				return false;
-			}
-
-			if(mob.length!=10){
-				document.getElementById('mobilenum').innerHTML =" ** Mobile Number must be 10 digits only";
-				return false;
-			}
-
-			if(mail.indexof('@')<=0){
-				document.getElementById('emaill').innerHTML =" ** please enter a valid mail";
-				return false;
-			}
-
-			if((mail.charAt(mail.length-4)!='.')&&(mail.charAt(mail.length-3)!='.')){
-				document.getElementById('emaill').innerHTML =" ** invalid email ";
-				return false;
-			}
-			
-		}
-				</script>
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	
 
 </body>
 </html>
 
 
+<script>
+var myInput = document.getElementById("password");
+var letter = document.getElementById("letter");
+var capital = document.getElementById("capital");
+var number = document.getElementById("number");
+var length = document.getElementById("length");
 
+// When the user clicks on the password field, show the message box
+myInput.onfocus = function() {
+  document.getElementById("message").style.display = "block";
+}
+
+// When the user clicks outside of the password field, hide the message box
+myInput.onblur = function() {
+  document.getElementById("message").style.display = "none";
+}
+
+// When the user starts to type something inside the password field
+myInput.onkeyup = function() {
+  // Validate lowercase letters
+  var lowerCaseLetters = /[a-z]/g;
+  if(myInput.value.match(lowerCaseLetters)) {
+    letter.classList.remove("invalid");
+    letter.classList.add("valid");
+  } else {
+    letter.classList.remove("valid");
+    letter.classList.add("invalid");
+}
+
+  // Validate capital letters
+  var upperCaseLetters = /[A-Z]/g;
+  if(myInput.value.match(upperCaseLetters)) {
+    capital.classList.remove("invalid");
+    capital.classList.add("valid");
+  } else {
+    capital.classList.remove("valid");
+    capital.classList.add("invalid");
+  }
+
+  // Validate numbers
+  var numbers = /[0-9]/g;
+  if(myInput.value.match(numbers)) {
+    number.classList.remove("invalid");
+    number.classList.add("valid");
+  } else {
+    number.classList.remove("valid");
+    number.classList.add("invalid");
+  }
+
+  // Validate length
+  if(myInput.value.length >= 8) {
+    length.classList.remove("invalid");
+    length.classList.add("valid");
+  } else {
+    length.classList.remove("valid");
+    length.classList.add("invalid");
+  }
+}
+</script>
 
 

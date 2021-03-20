@@ -38,7 +38,7 @@
      				<!-- Modal body -->
       				<div class="card-body">
        			 		<h1  style="color:black;font-size: 20px;text-align: center;">WE'D <i class="fa fa-heart-o" aria-hidden="true"></i> TO HELP YOU</h1>
-						<p style="text-align: center;color: black">If you are woundering about an order,our products,or website,shoot them at <i class="fa fa-hand-o-down" aria-hidden="true"></i></p>
+						<p style="text-align: center;color: black">If you are wondering about an order,our products,or website,shoot them at <i class="fa fa-hand-o-down" aria-hidden="true"></i></p>
 
 				 		<form method="post" class="text-center">
             				<input type="email" name="email" class="form-control" placeholder="Your email id">
@@ -74,7 +74,7 @@
 
 
 					<p class="copyright-text" style=" font-size:13px;color: white;margin-top: 0px;
-           			margin-bottom: 0px,background-color: #fff;padding-top: 30px;position: relative;">PRIVACY POLICY | TERMS AND CONDITIONS |COPYRIGHT © CYBER SECQURE
+           			margin-bottom: 0px,background-color: #fff;padding-top: 30px;position: relative;">PRIVACY POLICY | TERMS AND CONDITIONS |COPYRIGHT © CYBER SECURE
             			</p>
 
            		</div>

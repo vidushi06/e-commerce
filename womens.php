@@ -428,7 +428,7 @@
                       	<img src="https://tse2.mm.bing.net/th?id=OIP.M6YH8kqxQ02JDv3DylzTGAHaHa&pid=Api&P=0&w=300&h=300" style="height: 198px;width: 100%">
                     	</a>
                     	<div class="text-center">
-                    		<h6>Addidas shortsr</h6>
+                    		<h6>Addidas shorts</h6>
                     		<div class="row">
                     			<div class="col-md-6">
                     				<h6>Rs.899 </h6>

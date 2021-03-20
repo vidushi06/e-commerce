@@ -2,6 +2,6 @@
 session_start();
 if(empty($_SESSION['a']))
 {
-header("location:signin.php");
+header("location:login.php");
 }
 ?>

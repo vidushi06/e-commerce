@@ -1,6 +1,8 @@
 <?php
 
-include "session.php";
+
+
+
 
 ?>
 
@@ -28,99 +30,40 @@ include "session.php";
 
 <section><!--start of slider-->
 
- <div class="carousel slide" data-ride="carousel" id="myslide" style="margin-top: -20px">
-
-
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
-
-      <div class="carousel-item active" data-interval="3000">
-           <img src="image/items.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
-           
-           <div class="carousel-caption">
-                <h1 style="font-size: 50px;color: white;text-shadow: 2px 2px black;">Get all popular brands at one place :)</h1>
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/4620873/pexels-photo-4620873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="makeup" style="height: 700px;width: 100%">
+      <div class="carousel-caption">
+                <h4 class="text-warning" style="font-size: 40px;text-shadow: 2px 2px white;position: relative;top: 363px;
+">20%<span class="text-dark">Off on Best cosmetics Brands</span></h4>
            </div>
-
-      </div>
-
-      <div class="carousel-item" data-interval="3000">
-           <img src="image/sales.jpg" alt="First slide" class="img-fluid" width="100%"style="height: 650px">
-           <div class="carousel-caption">
-           		 <h1 style="font-size: 50px;text-shadow: 2px 2px black;" class="text-danger" >best of 2021</h1>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/5632378/pexels-photo-5632378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="sales" style="height: 700px;width: 100%">
+      <div class="carousel-caption">
+                 <h4 style="font-size: 40px;text-shadow: 2px 2px black;" class="text-danger" >best of 2021</h4>
               <button style="border-radius: 20px;text-shadow: 2px 2px black;" class="btn btn-danger">Shop Now</button>
            </div>
-
-      </div>
-
-      <div class="carousel-item" data-interval="3000">
-           <img src="image/cosmetics.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
-           <div class="carousel-caption">
-           		<h1 class="text-warning" style="font-size: 50px;text-shadow: 2px 2px black;">20%<span class="text-light">Off on Best cosmetics Brands</span></h1>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/3432775/pexels-photo-3432775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="fashion" style="height: 700px;width: 100%">
+        <div class="carousel-caption">
+                <h4 style="font-size: 40px;color:orange;text-shadow: 2px 2px white;position: relative;top: 363px;">Get all popular brands at one place :)</h4>
            </div>
-
-      </div>
-
-      <div class="carousel-item" data-interval="3000">
-           <img src="image/img.jpg" alt="First slide" class="img-fluid" width="100%" style="height: 650px">
-           <div class="carousel-caption">
-           		
-           </div>
-
-      </div>
-         
-
-  </div><!-- end carousel-inner-->
-
-
-		 <!--  <ul class="carousel-indicators" style="height:1px">
-		     <li data-target="#a" data-slide-to="0" class="active"></li>
-		     <li data-target="#myslide" data-slide-to="1" class=""></li>
-		     <li data-target="#myslide" data-slide-to="2" class=""></li>
-		     <li data-target="#myslide" data-slide-to="3" class=""></li>
-		  </ul> -->
-
-		  
-		  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
-		       <span class="carousel-control-prev-icon"></span>
-		  </a>
-
-		  <a href="#myslide" data-slide="next" class="carousel-control-next">
-		       <span class="carousel-control-next-icon"></span>
-		  </a>
-	</div>
-</section><!--end of slider-->
-
-<section><!--start of nav-->
-
-  <div class="container-fluid" style="background-color: #f0bb1b">
-      <div class="container">
-          <nav class="navbar navbar-expand-sm  navbar-dark">
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="electronics.php">electronics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="furniture.php">furniture</a>
-              </li>
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  Clothing
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="mens.php">men</a>
-                  <a class="dropdown-item" href="womens.php">women</a>
-                </div>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-            </ul>
-          </nav>
-      </div>
+    </div>
   </div>
-</section><!--end of nav-->
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+    </div>
+
+</section><!--end of slider-->
 
 <br>
 <!--start of covid essentials-->
@@ -379,67 +322,43 @@ include "session.php";
 <section>
   <div class="container-fluid">
       <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-3">
               <div class="card card shadow">
                   <div class="card-header">Beauty</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" class="card-img-top">
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" class="card-img-top" style="height: 280px">
                   <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="makeup.php" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-          <div class="col-md-2">
-              <div class="card card shadow">
-                  <div class="card-header">Top Categories</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg" class="card-img-top">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-          <div class="col-md-2">
-              <div class="card card shadow">
-                  <div class="card-header">Food</div>
-                  <img src="https://img.freepik.com/free-photo/top-view-pantry-food-ingredients_23-2148796316.jpg?size=626&ext=jpg&ga=GA1.2.516988847.1612722310" class="card-img-top" style="height: 170px">
-                  <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
-            
-                  </div><!--end of card body-->
-              </div><!--end of card-->
-          </div><!--end of col-->
-
-
-          <div class="col-md-2">
+          <div class="col-md-3">
               <div class="card card shadow">
                   <div class="card-header">Electronics</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" class="card-img-top">
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg" class="card-img-top" style="height: 280px">
                   <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="electronics.php" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-          <div class="col-md-2">
+          <div class="col-md-3">
               <div class="card card shadow">
                   <div class="card-header">Clothes</div>
-                  <img src="https://tpc.googlesyndication.com/daca_images/simgad/2603831496085703479" class="card-img-top" style="height: 170px">
+                  <img src="https://tpc.googlesyndication.com/daca_images/simgad/2603831496085703479" class="card-img-top" style="height: 280px">
                   <div class="card-body">
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="topfashion.php" class="btn btn-warning">Shop Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
           </div><!--end of col-->
 
-
-          <div class="col-md-2">
+          <div class="col-md-3">
               <div class="card card shadow">
                   <div class="card-header">Furniture</div>
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" class="card-img-top">
+                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" class="card-img-top" style="height: 280px">
                   <div class="card-body">
                     <a href="" class="btn btn-warning">Shop Now</a>
             
@@ -526,7 +445,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>New Apple iPhone 12</p>
                     <p class="text-danger">Currently Unavailable</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -538,7 +457,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>POCO M2</p>
                     <p class="text-danger"><del>12,999</del> 9,999Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -550,7 +469,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>Jio</p>
                     <p class="text-danger"><del>999</del> 699Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -563,7 +482,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>honor</p>
                     <p class="text-danger"><del>12,999</del>  10,999Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -575,7 +494,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>Redmi i9</p>
                     <p class="text-danger"><del>9,999</del> 7,999Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -588,7 +507,7 @@ include "session.php";
                   <div class="card-body text-center">
                     <p>Apple iPhone XR</p>
                     <p class="text-danger"><del>47,999</del> 41,499Rs.</p>
-                    <a href="" class="btn btn-warning">Shop Now</a>
+                    <a href="" class="btn btn-warning">Buy Now</a>
             
                   </div><!--end of card body-->
               </div><!--end of card-->
@@ -608,123 +527,36 @@ include "session.php";
     </div>
 
   
-    <br>
-    <center><br>
-      <h3>Popular <span class="underline">Deals</span></h3>
-    </center><hr>
-      
-
   
     </div>
 </section><!--end of section-->
 <br>
 <section><!--start of section with makeup,mens and womens items etc-->
     <div class="container-fluid">
-      <center><br>
-        <h3>Makeup</h3>
-      </center><hr>
-        <div class="row"><!--start of makeup-->
-           <div class="column">
-              <img src="image/make1.jpg" />
-              <img src="image/make2.jpg" />
-              <img src="image/make3.jpg" />
-            </div>
-            <div class="column">
-              <img src="image/make6.jpg">
-              <img src="https://cdn.pixabay.com/photo/2016/05/02/17/56/lipstick-1367775__340.jpg">
-              <img src="image/make8.jpg">
-            </div>
-            <div class="column">
-              <img src="image/make11.jpg" />
-              <img src="image/make12.jpg" />
-              <img src="image/make10.jpg">
-            </div>
-            <div class="column">
-              <img src="image/make5.jpg" />
-              <img src="image/make9.jpg">
-              <img src="image/make4.jpg" />
-                
-            </div>
-        </div><br>
+      
+      
         <div class="row">
             <a href="" class="btn btn-warning" style="font-size: 20px;font-weight: bolder;margin:auto;">View More</a>
         </div><!--end of makeup-->
 
 
-        <!--start of mens fashion-->
-          <br><br>
-          <center><br>
-            <h3>Mens <span class="underline">Fashion</span></h3>
-          </center><hr>
+        <!--start of sale-->
           <br>
-        <div class="row1">
-           <div class="column1">
-              <img src="https://images.pexels.com/photos/988914/pexels-photo-988914.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-              <img src="https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              <img src="https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-            </div>
-            <div class="column1">
-              <img src="https://cdn.pixabay.com/photo/2015/07/31/17/52/suit-869380__340.jpg">
-              <img src="https://cdn.pixabay.com/photo/2017/03/20/15/13/wrist-watch-2159351__340.jpg">
-            </div>
-            <div class="column1">
-              <img src="https://cdn.pixabay.com/photo/2019/09/13/17/48/hat-4474522__340.jpg" />
-              <img src="https://images.pexels.com/photos/167686/pexels-photo-167686.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-              <img src="https://media.istockphoto.com/photos/mens-suits-on-hangers-in-different-colors-picture-id887360960?b=1&k=6&m=887360960&s=170667a&w=0&h=rEKd87MMvL4kwR9Fgv_FprzLfLSLio8cmvgbvI9kX-M=" />
-            </div>
-            <div class="column1">
-                <img src="https://images.pexels.com/photos/2897529/pexels-photo-2897529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                <img src="https://cdn.pixabay.com/photo/2017/04/07/16/47/interview-2211354__340.jpg">
-            </div>
-        </div><br><!--end off row-->
-        <div class="row">
-            <a href="" class="btn btn-warning" style="font-size: 20px;font-weight: bolder;margin:auto;">View More</a>
-        </div>
-
-        <!--end of mens fashion-->
-
-        <!--start of womens fashion-->
-        <br><br>
-        <center><br>
-                    <h3>Womens <span class="underline">Fashion</span></h3>
-              </center><hr>
-          <br>
-        <div class="row1">
-           <div class="column1">
-              <img src="https://media.istockphoto.com/photos/portrait-of-blonde-woman-in-sunglasses-picture-id1174306176?b=1&k=6&m=1174306176&s=170667a&w=0&h=qxU9khl6JJ9KyTfUa5uwZgH8BG6IyXD183TYEGGMaLI=" />
-              <img src="https://images.pexels.com/photos/3682293/pexels-photo-3682293.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-            </div>
-            <div class="column1">
-              <img src="https://images.pexels.com/photos/3782789/pexels-photo-3782789.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-            </div>
-            <div class="column1">
-              <img src="https://cdn.pixabay.com/photo/2016/08/21/10/22/bag-1609281__340.jpg " />
-              <img src="https://media.istockphoto.com/photos/portrait-of-confident-cool-sweet-pretty-dark-skin-girl-dream-feel-picture-id1181197567?b=1&k=6&m=1181197567&s=170667a&w=0&h=Xrsl1Fq-n4QelpKvmIppeAQj7RBhlH1tT1FYSNlILFQ=">
-            </div>
-            <div class="column1">
-              <img src="https://images.pexels.com/photos/1848471/pexels-photo-1848471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />  
-            </div>
-        </div><br><!--end of row-->
-        <div class="row">
-            <a href="" class="btn btn-warning" style="font-size: 20px;font-weight: bolder;margin:auto;">View More</a>
-          <br>
-        </div>
-        <br><br>
-        <!--end of womens fashion-->
 
         <div class="row">
-          <div class="col-sm-4">
+          <!-- <div class="col-sm-4">
               <div class="card card shadow furniture img-fluid" style="height: 250px">
                   <div class="card-body">
                      <div class="card-text text-light">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.T14fMRq0O_-OBFfiGkD7BwHaEk&pid=Api&P=0&w=254&h=158">
                         <h2  style="font-weight: bold;">Get 50% off <br>on FURNITURE</h2>
                         <a href="" class="stretched-link"></a>
                      </div>
                   </div>
               </div>
-          </div><!--end of col-->
+          </div> --><!--end of col-->
 
-          <div class="col-sm-4">
+          <div class="col-sm-6">
               <div class="card card shadow appliances img-fluid" style="height: 250px">
                   <div class="card-body">
                      <div class="card-text">
@@ -735,12 +567,12 @@ include "session.php";
               </div>
           </div><!--end of col-->
 
-          <div class="col-sm-4">
+          <div class="col-sm-6">
               <div class="card card shadow electronics img-fluid" style="height: 250px">
                   <div class="card-body">
                      <div class="card-text text-light">
                         <h2  style="font-weight: bold;text-shadow: 2px">Electronics <br>At resonable prices</h2>
-                        <a href="" class="stretched-link"></a>
+                        <a href="electronics.php" class="stretched-link"></a>
                      </div>
                   </div>
               </div>
@@ -752,49 +584,18 @@ include "session.php";
         </div>
         <br>
 
-        <div id="demo" class="carousel slide" data-ride="carousel">
-
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-          
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://cdn.pixabay.com/photo/2017/08/10/07/32/dell-2619501__340.jpg" alt="dell products" width="100%" height="400px">
-              <div class="carousel-caption text-dark" style="text-decoration: underline;">dell products</div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://cdn.pixabay.com/photo/2014/07/01/12/37/kindle-381242__340.jpg" alt="kindle" width="100%" height="400px">
-              <div class="carousel-caption text-dark" style="text-decoration: underline;">Kindle</div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://media.istockphoto.com/photos/new-samsung-galaxy-note-10-android-smartphone-picture-id1199648781?b=1&k=6&m=1199648781&s=170667a&w=0&h=PbuE4iAYQs0w9M6DbaAwaSR1wBW5xB2c7gf-tXzh8ZE=" alt="samsung" width="100%" height="400px">
-              <div class="carousel-caption" style="text-decoration: underline;">samsung</div>
-            </div>
-          </div>
-          
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
+       
 
         <br>
         <center><br>
-          <h3>Happy <span class="underline">Coustomers</span></h3>
+          <h3>Happy <span class="underline">Reviews</span></h3>
         </center><hr>
         <div class="row"><!--start of happy coustomer-->
           <br>
+          <div class="card-deck">
           <div class="col-md-3">
             <div class="card">
-                <img class="card-img-top" src="https://tse2.mm.bing.net/th?id=OIP.2TCQ5rgg-KPeV8pAsDRwsQHaHa&pid=Api&P=0&w=300&h=300" alt="Card image" style="width:70%;display: block;margin: auto; border-radius: 50%">
+                <img class="card-img-top" src="https://tse2.mm.bing.net/th?id=OIP.2TCQ5rgg-KPeV8pAsDRwsQHaHa&pid=Api&P=0&w=300&h=300" alt="Card image" style="width:70%; height:220px; display: block;margin: auto; border-radius: 50%">
                 <div class="card-body">
                   <h4 class="card-title">John Doe</h4>
                   <repeat n="3">★</repeat>
@@ -804,7 +605,7 @@ include "session.php";
             </div>
             <div class="col-md-3">
                 <div class="card">
-                <img class="card-img-top" src="https://tse4.mm.bing.net/th?id=OIP.TctatNGs7RN-Dfc3NZf91AAAAA&pid=Api&P=0&w=300&h=300" alt="Card image" style="width:70%; border-radius: 50%;display: block;margin: auto;">
+                <img class="card-img-top" src="https://tse4.mm.bing.net/th?id=OIP.TctatNGs7RN-Dfc3NZf91AAAAA&pid=Api&P=0&w=300&h=300" alt="Card image" style="width:70%; border-radius: 50%;display: block;margin: auto;height:220px;">
                 <div class="card-body">
                   <h4 class="card-title">vikas jain</h4>
                   <repeat n="2">★</repeat>
@@ -814,26 +615,27 @@ include "session.php";
             </div>
             <div class="col-md-3">
                 <div class="card">
-                <img class="card-img-top" src="https://tse1.mm.bing.net/th?id=OIP.IfgmaUOZrA4VPmr7F0gn7QAAAA&pid=Api&P=0&w=300&h=300" style="width:70%; border-radius: 50%;display: block;margin: auto;">
+                <img class="card-img-top" src="https://tse1.mm.bing.net/th?id=OIP.IfgmaUOZrA4VPmr7F0gn7QAAAA&pid=Api&P=0&w=300&h=300" style="width:70%;height:200px; border-radius: 50%;display: block;margin: auto;">
                 <div class="card-body">
                   <h4 class="card-title">John Doe</h4>
                   <repeat n="3">★</repeat>
                   <p>amazing products)</p>
-                  
+                  <br>
                 </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                <img class="card-img-top" src="https://tse2.mm.bing.net/th?id=OIP.fx8DjC9heP-uOr5RFLADjwHaHa&pid=Api&P=0&w=300&h=300" style="width:70%;display: block;margin: auto; border-radius: 50%">
+                <img class="card-img-top" src="https://tse2.mm.bing.net/th?id=OIP.fx8DjC9heP-uOr5RFLADjwHaHa&pid=Api&P=0&w=300&h=300" style="width:70%;height:200px;display: block;margin: auto; border-radius: 50%">
                 <div class="card-body">
                   <h4 class="card-title">John Doe</h4>
                   <repeat n="4">★</repeat>
                   <p class="card-text">:)great</p>
-                  
+                  <br>
                 </div>
                 </div>
             </div>
+          </div>
         </div><!--end of happy coustomer-->
         <br>
     </div><!--end of container-->
